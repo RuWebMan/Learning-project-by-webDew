@@ -93,13 +93,13 @@
     <hr>
 
     <!-- Information about author -->
-    <p>Here is my HTML basics course, which was created on 2019.</p>
-    <address>Yauhen Kavalchuk, YouTube lecturer</address>
+    <p> This is a practice on the course "HTML Basics" from the YouTube channel webDew.</p>
+    <address>RuWebMan, web-student</address>
     <hr>
 
     <!-- Quote and author -->
-    <q>Hello, welcome to "webDev" channel</q>
-    <address>Yauhen Kavalchuk, YouTube lecturer</address>
+    <q>Hello, welcome to my practice from "webDev" channel</q>
+    <address>RuWebMan, web-student</address>
     <hr>
 
     <!-- Block of Quote -->
@@ -115,9 +115,9 @@
     <hr>
 
     <!-- Time or date information -->
-    <time>1989-01-26</time>
+    <time>1983-01-14</time>
     <br>
-    <time datetime="1989-01-26">My Birthday</time>
+    <time datetime="1983-01-14">My Birthday</time>
     <hr>
 
     <!-- Bold & Italic, Typing, Deleted text -->
@@ -130,8 +130,8 @@
     <!-- Code examples -->
     <code>
     const args = {
-      name: "Yauhen",
-      age: 30
+      name: "RuWebMan",
+      age: 40
     };
     const getDate = () => new Date;
   </code>
@@ -141,8 +141,8 @@
     <pre>
     <code>
       const args = {
-        name: "Yauhen",
-        age: 30
+        name: "RuWebMan",
+        age: 40
       };
       const getDate = () => new Date;
     </code>
@@ -185,6 +185,122 @@
     <h2>To know HTML <sup>semantic</sup> is important</h2>
     <h2>X<sup>2</sup> = 9</h2>
     <hr>
+
+    <!-- Unordered List -->
+    <ul>
+        <li>Front-end Developer</li>
+        <li>Back-end Developer</li>
+        <li>Full-stack Developer</li>
+    </ul>
+    <hr>
+
+    <!-- Ordered List -->
+    <ol>
+        <li>Front-end Developer</li>
+        <li>Back-end Developer</li>
+        <li>Full-stack Developer</li>
+    </ol>
+    <hr>
+
+    <!-- Ordered List with start -->
+    <ol start="10">
+        <li>Front-end Developer</li>
+        <li>Back-end Developer</li>
+        <li>Full-stack Developer</li>
+    </ol>
+    <hr>
+
+    <!-- Ordered List with reversed -->
+    <ol reversed>
+        <li>Front-end Developer</li>
+        <li>Back-end Developer</li>
+        <li>Full-stack Developer</li>
+    </ol>
+    <hr>
+
+    <!-- Nested Unordered List -->
+    <ul>
+        <li>
+            Front-end Developer
+            <ul>
+                <li>Mobile</li>
+                <li>UI</li>
+                <li>Node.js</li>
+            </ul>
+        </li>
+        <li>Back-end Developer</li>
+        <li>Full-stack Developer</li>
+    </ul>
+    <hr>
+
+    <!-- Nested Ordered List -->
+    <ol>
+        <li>
+            Front-end Developer
+            <ol>
+                <li>Mobile</li>
+                <li>UI</li>
+                <li>Node.js</li>
+            </ol>
+        </li>
+        <li>Back-end Developer</li>
+        <li>Full-stack Developer</li>
+    </ol>
+    <hr>
+
+    <!-- Nested Unordered List with Inner Ordered List -->
+    <ul>
+        <li>
+            Front-end Developer
+            <ol>
+                <li>Mobile</li>
+                <li>UI</li>
+                <li>Node.js</li>
+            </ol>
+        </li>
+        <li>Back-end Developer</li>
+        <li>Full-stack Developer</li>
+    </ul>
+    <hr>
+
+    <!-- Definitions List -->
+    <dl>
+        <dt>Front-end Developer</dt>
+        <dd>It is a person who works with the visible part of website.</dd>
+
+        <dt>Back-end Developer</dt>
+        <dd>It is a person who works with the hidden part of a website, including databases and environments.</dd>
+    </dl>
+    <hr>
+
+    <!-- Simple image -->
+    <img src="https://picsum.photos/300/300" alt="Just image">
+
+    <!-- Responsive image -->
+    <picture>
+        <source media="(min-width: 1024px)" srcset="https://picsum.photos/600/600">
+        <source media="(min-width: 768px)" srcset="https://picsum.photos/300/300">
+        <source media="(min-width: 360px)" srcset="https://picsum.photos/100/100">
+        <img src="https://picsum.photos/300/300" alt="Just image">
+    </picture>
+
+    <!-- Image with semantic description -->
+    <figure>
+        <img src="https://picsum.photos/300/300" alt="Just image" />
+        <figcaption>It is a simple description for a picture above</figcaption>
+    </figure>
+
+    <!-- Images with semantic description -->
+    <figure>
+        <img src="https://picsum.photos/300/300" alt="Just image" />
+        <img src="https://picsum.photos/300/300" alt="Just image" />
+        <img src="https://picsum.photos/300/300" alt="Just image" />
+        <figcaption>
+            <p>It is a simple description for a couple pictures above.It is a simple description for a couple pictures
+                above.It is a simple description for a couple pictures above</p>
+        </figcaption>
+    </figure>
+
 
 </body>
 
